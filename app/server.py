@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/open?id=1-BCRcVHNl5y49uj3rDM3NpRsTr3PBC-e'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1-BCRcVHNl5y49uj3rDM3NpRsTr3PBC-e'
 export_file_name = 'export.pkl'
 
 classes = ['Brush_Tailed_Rock_Wallaby', 'Eastern_Grey_Kangaroo', 'Red_Necked_Wallaby', 'Swamp_Wallaby', 'Wallaroo']
